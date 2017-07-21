@@ -14,7 +14,7 @@ class Page extends Component {
         return (
             <div className="page">
 
-                <h3>Speed {speed}, background {style.background}</h3>
+                <h3>Speed {speed}, Background {style.background}</h3>
 
                 <H1>{title}</H1>
 

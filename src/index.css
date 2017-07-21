@@ -10,34 +10,53 @@ html, body, #root, .wrapper {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;  
+  font-family: 'Roboto', sans-serif;  
   /* background: #f6d8c1; */
   color: #080808;
+   font-size: 15px; 
+    /* line-height: 1.5em;   */
+  -webkit-font-smoothing: antialiased;
 }
 
 
+p {
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+strong {
+  font-weight: 400;
+  text-transform: uppercase
+}
+
 h1, h2, h3, h4, h5 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400; 
-  margin: 0 0 20px 0;
+  font-weight: 600;  
+  margin: 0 0 50px 0;
   padding:0;
 }
 
 h1 {
-  font-size: 100px;
-  margin: 0 0 50px 0;
-  font-weight: 600;
+  font-size: 80px;
+  margin: 20px 0 0 0;
+  font-weight: 600; 
+  font-family: 'Georgia', 'Times New Roman', Times, serif; 
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 15px;
+  padding: 0 0 30px 0;
+  margin: 0 0 30px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  font-weight: 400;
+  text-transform: uppercase
 }
+
 
 
 .wrapper {
   margin: 0 auto;
   /* max-width: 1200px; */
-  /* text-align: justify */
+   /* text-align: justify  */
 }
 
 /* .columns {
@@ -51,7 +70,7 @@ blockquote {
   border-top: 2px solid #080808;
   border-bottom: 2px solid #080808;
   margin: 20px 0;
-  font-size: 25px
+  font-size: 20px
 }
 
 hr {
@@ -77,11 +96,14 @@ img.loaded {
 .columns {
   /* transition: all 1s;
   opacity: 0; */
+  column-gap: 20px;
+  /* text-align: justify */
 }
 
 .page {
   height: 100%;
   padding: 30px;
+  
 }
 
 .new {
@@ -89,12 +111,12 @@ img.loaded {
   padding: 10px 20px;
   background: #000;
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   text-transform: uppercase;
   z-index: 100;
 
   position: absolute;
-  top: 50px;
-  right:50px;
+  top: 50%;
+  right:0;
   transform: translateY(-50%)
 }

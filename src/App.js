@@ -17,7 +17,7 @@ class App extends Component {
     const pages = [{
       id: 1,
       title: 'Title 1',
-      columns: 3,
+      columns: 6,
       action: 1,
       speed: 1,
       style: {
@@ -69,7 +69,7 @@ class App extends Component {
           })}
 
           <Parallax.Layer offset={1} speed={-0.1} >
-            <div className="page">
+            <div className="page" onClick={() => this.refs.parallax.scrollTo(2)}>
               <div className="new">New</div>
             </div>
           </Parallax.Layer>
