@@ -109,14 +109,14 @@ img.loaded {
 .new {
   display: inline-block;
   padding: 10px 20px;
-  background: #000;
-  color: #fff;
+  background: yellow;
+  /* color: #fff; */
   font-size: 14px;
   text-transform: uppercase;
   z-index: 100;
-
+  font-weight: 400;
   position: absolute;
-  top: 50%;
+  top: 20px;
   right:0;
-  transform: translateY(-50%)
+  /* transform: translateY(-50%) */
 }
